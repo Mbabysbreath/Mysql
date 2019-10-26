@@ -24,7 +24,7 @@ public class DButil {
      * 封装一个获取Connection对象的方法，进行数据库连接
      * 1.Class.forName("com.mysql.jdbc.Driver);
      * DriverManager.getConection();
-     * 2.DataSource
+     * 2.DataSource：不用每次创建连接和关闭连接
      * @return
      */
     public static Connection getConnection()  {
