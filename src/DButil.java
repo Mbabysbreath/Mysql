@@ -91,7 +91,7 @@ public class DButil {
         } catch (ClassNotFoundException|SQLException e) {
             e.printStackTrace();
         }finally {
-            //注意关闭顺序:结果集/执行对象/
+            //注意关闭顺序:结果集/执行对象/连接
             try {
                 if(resultSet!=null)
                 resultSet.close();

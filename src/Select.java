@@ -35,9 +35,6 @@ public class Select {
 
             //相比较于Statement，解决了安全漏洞
             ps = connection.prepareStatement(sql);
-            ps.setString(1,"%"+mail);
-            ps.setInt(2,classesId);
-         //   ps.setInt(2,1);
              rs=ps.executeQuery();
             while (rs.next()){
                 Student student = new Student();
