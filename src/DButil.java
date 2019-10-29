@@ -5,6 +5,7 @@ import java.sql.*;
 import java.text.ParseException;
 
 /**
+ * JDBC连接：数据库连接的两种方式
  * @author ZhaoMin
  * @date 2019/10/22 20:45
  */
